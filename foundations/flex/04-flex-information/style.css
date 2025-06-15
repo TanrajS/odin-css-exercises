@@ -5,12 +5,34 @@ body {
 img {
   width: 100px;
   height: 100px;
+  display: flex;
+  justify-self: center;
+}
+
+.plant-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.img-con {
+  margin: 52px;
+  width: 200px;
 }
 
 .title {
+  display: flex;
   font-size: 36px;
   font-weight: 900;
+  justify-content: center;
+  margin-bottom: 32px;
+  align-self: center; 
 }
+
+.text {
+  text-align: center;
+}
+
 
 /* do not edit this footer */
 .footer {
